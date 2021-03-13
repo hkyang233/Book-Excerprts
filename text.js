@@ -1,7 +1,7 @@
 // 遵循MIT协议开源
 setTimeout("text()","0"); 
 function text() {
-    var text=90;    //录入的数量 根据下面switch的内case的数量填写
+    var text=51;    //录入的数量 根据下面switch的内case的数量填写
     var number=Math.floor(Math.random()*text);    // 可均衡获取text数量的随机整数
     //根据函数number的随机整数查询相应的Text
     switch (number){
